@@ -30,7 +30,7 @@ public class AuthenticationController {
         model.addAttribute("user", user);
         return "sign-up";
     }
-
+ 
     @PostMapping(value = "/signup")
     public ModelAndView signup(HttpServletRequest request,@ModelAttribute("user") User user) throws UserAlreadyExistException, Exception{
         ModelAndView mav = new ModelAndView("signup");
