@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45f8241b-d6a3-4f96-bbc7-f808f255080c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fcantenn/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fcantenn/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fcantenn/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fcantenn/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fcantenn/FcanteenServiceApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/FcanteenService/FCS",
     "spring.configuration.checksum": "3535fd3c3203f4c770acc5141d7b061d"
@@ -102,7 +102,7 @@
       <workItem from="1657970595135" duration="681000" />
       <workItem from="1657983196865" duration="3114000" />
       <workItem from="1658036355185" duration="2177000" />
-      <workItem from="1658046582831" duration="660000" />
+      <workItem from="1658046582831" duration="3074000" />
     </task>
     <servers />
   </component>

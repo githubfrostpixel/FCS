@@ -41,9 +41,9 @@ public class User {
     @Column(name = "salary", nullable = true)
     private Float salary;
 
-    @ManyToOne(cascade = {CascadeType.ALL})
-    @JoinColumn(name = "store_id", updatable = false, insertable = false)
-    private Store store;
+//    @ManyToOne(cascade = {CascadeType.ALL})
+//    @JoinColumn(name = "store_id", updatable = false, insertable = false)
+//    private Store store;
 
     @Column(name = "balance", nullable = true)
     private Float balance;
