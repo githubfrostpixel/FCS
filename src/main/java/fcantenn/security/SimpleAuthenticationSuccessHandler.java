@@ -38,20 +38,38 @@ public class SimpleAuthenticationSuccessHandler implements AuthenticationSuccess
         User user = userService.findByUsername(username);
         Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
         authorities.forEach(authority -> {
-            if (authority.getAuthority().equals("ROLE_USER")) {
+            if (authority.getAuthority().equals("ROLE_MANAGER")) {
                 try {
-                    session.setAttribute("role","USER");
+                    session.setAttribute("role","MANAGER");
                     session.setAttribute("userInformation",user);
-                    redirectStrategy.sendRedirect(request, response, "/home");
+                    redirectStrategy.sendRedirect(request, response, "/home1");
                 } catch (Exception e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
-            }else if(authority.getAuthority().equals("ROLE_ADMIN")){
+            } else if(authority.getAuthority().equals("ROLE_ADMIN")){
                 try {
                     session.setAttribute("role","ADMIN");
                     session.setAttribute("userInformation",user);
-                    redirectStrategy.sendRedirect(request, response, "/home");
+                    redirectStrategy.sendRedirect(request, response, "/home2");
+                } catch (Exception e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            } else if(authority.getAuthority().equals("ROLE_STAFF")){
+                try {
+                    session.setAttribute("role","STAFF");
+                    session.setAttribute("userInformation",user);
+                    redirectStrategy.sendRedirect(request, response, "/home3");
+                } catch (Exception e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            } else {
+                try {
+                    session.setAttribute("role","STUDENT");
+                    session.setAttribute("userInformation",user);
+                    redirectStrategy.sendRedirect(request, response, "/home4");
                 } catch (Exception e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
