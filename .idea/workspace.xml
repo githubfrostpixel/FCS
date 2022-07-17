@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45f8241b-d6a3-4f96-bbc7-f808f255080c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/fcantenn/controller/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fcantenn/controller/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fcantenn/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fcantenn/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fcantenn/security/SimpleAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fcantenn/security/SimpleAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fcantenn/controller/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fcantenn/controller/HomePageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fcantenn/security/SimpleAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fcantenn/security/SimpleAuthenticationSuccessHandler.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2C1GjAwXReqEWYiizUCrfYnYiGV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/FcanteenService/Project SWP",
+    "spring.configuration.checksum": "3535fd3c3203f4c770acc5141d7b061d"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "TSQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FcanteenService\FCS\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FcanteenService\FCS\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FcanteenServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="happy-programming" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fcantenn.FcanteenServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45f8241b-d6a3-4f96-bbc7-f808f255080c" name="Changes" comment="" />
+      <created>1657962810596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657962810596</updated>
+      <workItem from="1657962813647" duration="4469000" />
+      <workItem from="1657970595135" duration="681000" />
+      <workItem from="1657983196865" duration="3114000" />
+      <workItem from="1658036355185" duration="2177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
