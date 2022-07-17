@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EncodePassword<happy-programming>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "fcantenn.config.EncodePassword",
+            "projectName": "happy-programming",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FcanteenServiceApplication<happy-programming>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "fcantenn.FcanteenServiceApplication",
+            "projectName": "happy-programming",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
